@@ -1,0 +1,109 @@
+.dashboard-title {
+    padding: 30px 10px;
+    color: #110f60;
+}
+.dashboard-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d0d6ff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 360px;
+    height: 200px;
+    background: #edf2ff;
+    color: #7575fd;
+    font-size: 32px;
+    font-weight: 700;
+}
+.add-new-car-btn {
+    height: 45px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 12px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    background-color: #4da3ff;
+    padding: 10px 15px;
+}
+a.nav-bar-buttons {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #7575fd;
+    font-weight: 600;
+    border-bottom: 3px solid #7575fd;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+a.add-new-car-btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.cars-table-wrapper {
+    padding: 10px 0;
+}
+.table-top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+.cars-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse:collapse
+}
+.cars-table tr {
+    border: 1px solid #CBD6E2;
+}
+
+.cars-table thead th {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    font-style: normal;
+    text-align: left;
+    color: #232323;
+}
+.cars-table thead {
+    background: #f4f4f9
+}
+.cars-table tr td, .cars-table tr th {
+    padding: 31px 27px;
+}
+.add-car-form{
+    margin: 0 auto;
+    padding: 5px;
+}
+.add-car-form input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #cce5ff;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+.add-car-form input:focus{
+    outline-color: #4da3ff;
+    background-color: #e6f2ff;
+}
+.pagination-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.no-data{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted;
+    border-radius: 8px;
+    padding: 60px;
+}
+
